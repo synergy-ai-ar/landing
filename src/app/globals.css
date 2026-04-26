@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f8f4;
+  --foreground: #18222d;
+  --surface: #ffffff;
+  --muted: #5a6672;
+  --brand: #0f7a6c;
+  --brand-strong: #0b4f58;
+  --accent: #f2b43f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-brand), sans-serif;
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(24, 34, 45, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(24, 34, 45, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 700ms ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 120ms;
+}
+
+.delay-2 {
+  animation-delay: 240ms;
+}
+
+.delay-3 {
+  animation-delay: 360ms;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

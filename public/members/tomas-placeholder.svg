@@ -1,0 +1,7 @@
+<svg width="640" height="800" viewBox="0 0 640 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="800" fill="#F8EFDF"/>
+  <circle cx="320" cy="250" r="120" fill="#F2B43F" fill-opacity="0.32"/>
+  <rect x="150" y="410" width="340" height="250" rx="120" fill="#0B4F58" fill-opacity="0.2"/>
+  <rect x="40" y="40" width="560" height="720" rx="26" stroke="#0B4F58" stroke-opacity="0.3" stroke-width="4"/>
+  <text x="50%" y="87%" text-anchor="middle" fill="#0B4F58" font-size="64" font-family="Arial, sans-serif" font-weight="700">TOMAS</text>
+</svg>
