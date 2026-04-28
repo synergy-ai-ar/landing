@@ -10,7 +10,7 @@ const members = [
   {
     name: "Daniel Seidler",
     role: "CTO",
-    image: "/members/dani.jpeg",
+    image: "/members/daniel.jpeg",
     bio: "Daniel drives the technical architecture, ensuring scalable, secure and reliable AI systems for real-world adoption.",
   },
   {
@@ -26,6 +26,8 @@ const highlights = [
   "Fast implementation with enterprise-grade quality",
   "Clear performance metrics and continuous optimization",
 ];
+
+const imageBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export default function Home() {
   return (
@@ -151,7 +153,7 @@ export default function Home() {
               >
                 <div className="aspect-[4/5] overflow-hidden rounded-2xl border border-[color:var(--foreground)]/10 bg-[linear-gradient(135deg,rgba(15,122,108,0.16),rgba(242,180,63,0.18))]">
                   <Image
-                    src={member.image}
+                    src={`${imageBasePath}${member.image}`}
                     alt={`Portrait of ${member.name}`}
                     width={640}
                     height={800}
