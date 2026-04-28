@@ -4,19 +4,19 @@ const members = [
   {
     name: "Andrea Kuhk",
     role: "CEO",
-    image: "/members/andrea-placeholder.svg",
+    image: "/members/andrea.jpeg",
     bio: "Andrea leads Synergy AI's strategic vision and partnerships, focused on turning AI into measurable business growth.",
   },
   {
     name: "Daniel Seidler",
     role: "CTO",
-    image: "/members/daniel-placeholder.svg",
+    image: "/members/dani.jpeg",
     bio: "Daniel drives the technical architecture, ensuring scalable, secure and reliable AI systems for real-world adoption.",
   },
   {
     name: "Tomas Pilipsky",
     role: "CMO",
-    image: "/members/tomas-placeholder.svg",
+    image: "/members/tomas.jpeg",
     bio: "Tomas leads market positioning and go-to-market execution, connecting product capabilities with customer outcomes.",
   },
 ];
@@ -152,7 +152,7 @@ export default function Home() {
                 <div className="aspect-[4/5] overflow-hidden rounded-2xl border border-[color:var(--foreground)]/10 bg-[linear-gradient(135deg,rgba(15,122,108,0.16),rgba(242,180,63,0.18))]">
                   <Image
                     src={member.image}
-                    alt={`Portrait placeholder for ${member.name}`}
+                    alt={`Portrait of ${member.name}`}
                     width={640}
                     height={800}
                     className="h-full w-full object-cover"
