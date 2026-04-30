@@ -14,7 +14,7 @@ const members = [
     bio: "Daniel drives the technical architecture, ensuring scalable, secure and reliable AI systems for real-world adoption.",
   },
   {
-    name: "Tomas Pilipsky",
+    name: "Tomas Pilipski",
     role: "CMO",
     image: "/members/tomas.jpeg",
     bio: "Tomas leads market positioning and go-to-market execution, connecting product capabilities with customer outcomes.",
